@@ -136,5 +136,6 @@ function renderTable(limit: string) {
         }).catch((error) => {
             errormessage.innerHTML = error.message === "Failed to fetch" ? "Please check your internet connection" : "";
             containerElement?.appendChild(errormessage)
+            
         });
 };
